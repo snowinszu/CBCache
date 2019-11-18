@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D93C45AC1F05445A009F80F9 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93C45AC1F05445A009F80F9 /* CBCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CBCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93C45B01F05445A009F80F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F591E31F05472F00769742 /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
 		D9F591E41F05472F00769742 /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		D93C45AD1F05445A009F80F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D93C45AC1F05445A009F80F9 /* YYCache.framework */,
+				D93C45AC1F05445A009F80F9 /* CBCache.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,9 +115,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D93C45AB1F05445A009F80F9 /* YYCache */ = {
+		D93C45AB1F05445A009F80F9 /* CBCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D93C45B41F05445A009F80F9 /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildConfigurationList = D93C45B41F05445A009F80F9 /* Build configuration list for PBXNativeTarget "CBCache" */;
 			buildPhases = (
 				D93C45A71F05445A009F80F9 /* Sources */,
 				D93C45A81F05445A009F80F9 /* Frameworks */,
@@ -128,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = YYCache;
-			productName = YYCache;
-			productReference = D93C45AC1F05445A009F80F9 /* YYCache.framework */;
+			name = CBCache;
+			productName = CBCache;
+			productReference = D93C45AC1F05445A009F80F9 /* CBCache.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +139,7 @@
 		D93C45A31F05445A009F80F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = ibireme;
 				TargetAttributes = {
 					D93C45AB1F05445A009F80F9 = {
@@ -147,19 +147,20 @@
 					};
 				};
 			};
-			buildConfigurationList = D93C45A61F05445A009F80F9 /* Build configuration list for PBXProject "YYCache" */;
+			buildConfigurationList = D93C45A61F05445A009F80F9 /* Build configuration list for PBXProject "CBCache" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D93C45A21F05445A009F80F9;
 			productRefGroup = D93C45AD1F05445A009F80F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D93C45AB1F05445A009F80F9 /* YYCache */,
+				D93C45AB1F05445A009F80F9 /* CBCache */,
 			);
 		};
 /* End PBXProject section */
@@ -203,6 +204,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -210,6 +212,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -261,6 +264,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -268,6 +272,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -311,7 +316,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYCache;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.CBCache;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,7 +335,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.YYCache;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibireme.CBCache;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D93C45A61F05445A009F80F9 /* Build configuration list for PBXProject "YYCache" */ = {
+		D93C45A61F05445A009F80F9 /* Build configuration list for PBXProject "CBCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D93C45B21F05445A009F80F9 /* Debug */,
@@ -349,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D93C45B41F05445A009F80F9 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+		D93C45B41F05445A009F80F9 /* Build configuration list for PBXNativeTarget "CBCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D93C45B51F05445A009F80F9 /* Debug */,

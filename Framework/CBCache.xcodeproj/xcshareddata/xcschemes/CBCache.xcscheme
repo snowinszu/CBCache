@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
-   version = "1.8">
+   LastUpgradeVersion = "1020"
+   version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D93C45AB1F05445A009F80F9"
-               BuildableName = "YYCache.framework"
-               BlueprintName = "YYCache"
-               ReferencedContainer = "container:YYCache.xcodeproj">
+               BuildableName = "CBCache.framework"
+               BlueprintName = "CBCache"
+               ReferencedContainer = "container:CBCache.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -47,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D93C45AB1F05445A009F80F9"
-            BuildableName = "YYCache.framework"
-            BlueprintName = "YYCache"
-            ReferencedContainer = "container:YYCache.xcodeproj">
+            BuildableName = "CBCache.framework"
+            BlueprintName = "CBCache"
+            ReferencedContainer = "container:CBCache.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D93C45AB1F05445A009F80F9"
-            BuildableName = "YYCache.framework"
-            BlueprintName = "YYCache"
-            ReferencedContainer = "container:YYCache.xcodeproj">
+            BuildableName = "CBCache.framework"
+            BlueprintName = "CBCache"
+            ReferencedContainer = "container:CBCache.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

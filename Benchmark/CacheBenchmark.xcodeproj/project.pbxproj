@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		949E5AD7237EE66A0090B50E /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 949E5AD6237EE66A0090B50E /* Test.m */; };
 		D967E0DC1F0553F000791B80 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = D967E0C61F0553F000791B80 /* sqlite3.c */; };
 		D967E0DD1F0553F000791B80 /* version.txt in Resources */ = {isa = PBXBuildFile; fileRef = D967E0C81F0553F000791B80 /* version.txt */; };
 		D967E0DE1F0553F000791B80 /* YYThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D967E0CB1F0553F000791B80 /* YYThreadSafeDictionary.m */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		949E5AD5237EE66A0090B50E /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		949E5AD6237EE66A0090B50E /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		D967E0C61F0553F000791B80 /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
 		D967E0C71F0553F000791B80 /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
 		D967E0C81F0553F000791B80 /* version.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version.txt; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 		D9C586391F054B5E00320F3B = {
 			isa = PBXGroup;
 			children = (
+				949E5AD5237EE66A0090B50E /* Test.h */,
+				949E5AD6237EE66A0090B50E /* Test.m */,
 				D9F7E2141F36D7D4003F5035 /* Benchmark.h */,
 				D9F7E2151F36D7D4003F5035 /* Benchmark.m */,
 				D967E09F1F0553F000791B80 /* Vendor */,
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F7E2161F36D7D4003F5035 /* Benchmark.m in Sources */,
+				949E5AD7237EE66A0090B50E /* Test.m in Sources */,
 				D9D584501F05579A00CBBB61 /* PINCache.m in Sources */,
 				D9D584511F05579A00CBBB61 /* PINDiskCache.m in Sources */,
 				D9D584521F05579A00CBBB61 /* PINMemoryCache.m in Sources */,

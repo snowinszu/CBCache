@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:YYCache.xcodeproj">
+      location = "self:/Users/xieting/Desktop/Native P2P/iOS/YYCache/Framework/CBCache.xcodeproj">
    </FileRef>
 </Workspace>

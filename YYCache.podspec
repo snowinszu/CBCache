@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
-  s.name         = 'YYCache'
+  s.name         = 'CBCache'
   s.summary      = 'High performance cache framework for iOS.'
-  s.version      = '1.0.4'
+  s.version      = '0.0.1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.authors      = { 'ibireme' => 'ibireme@gmail.com' }
-  s.social_media_url = 'http://blog.ibireme.com'
-  s.homepage     = 'https://github.com/ibireme/YYCache'
+  s.authors      = { 'cdnbye' => 'service@cdnbye.com' }
+  s.social_media_url = 'https://docs.cdnbye.com'
+  s.homepage     = 'https://github.com/snowinszu/CBCache'
   s.platform     = :ios, '6.0'
   s.ios.deployment_target = '6.0'
-  s.source       = { :git => 'https://github.com/ibireme/YYCache.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/snowinszu/YYCache.git', :tag => s.version.to_s }
   
   s.requires_arc = true
   s.source_files = 'YYCache/*.{h,m}'
